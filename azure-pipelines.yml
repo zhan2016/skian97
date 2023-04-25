@@ -41,8 +41,6 @@ parameters:
 variables:
   - template: azure-pipelines-variables.yml
 
-
-
 stages:
   - template: azure-templates-stages.yml
     parameters:
